@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+header{
+    background-color: rgba(0,0,255,0.3);
+}
+
+#header{
+    font-size: 40px;
+    text-align:center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width:960px;
+    margin: auto;
+}
+
+#text{
+    color: rgb(255,0,0);
+}
+
+a{
+    text-decoration: none;
+}
+
+#login li{
+    text-align: center;
+    padding:10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#login h3{
+    font-weight:200;
+}
+
+#login{
+    list-style-type: none;
+}
+
+#login a{
+    color:blue;
+}
+
+#login a li:hover{
+    background-color: #e0e0e0;
+}
+
+#submit input[type="submit"]{
+    padding: 5px 10px 5px 10px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#main{
+    min-width:1366px;
+}
+
+#main section,#main aside{
+    float: left;
+}
+
+legend{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#vnav{
+    width: 200px;
+    font-size:16px;
+    min-height: 580px;
+    background-color: #f0f0f0;
+}
+
+#container{
+    width: 700px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+#container p{
+    padding:10px;
+}
+
+h2{
+    font-weight: 500;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 700px;
+    margin-top: 10px;
+}
+
+td{
+    text-align: center;
+    color: ;
+}
+
+th,td{
+    padding: 0 5px 0 5px;
+}
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}

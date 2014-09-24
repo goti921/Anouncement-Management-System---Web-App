@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+header{
+    background-color: rgba(0,0,255,0.3);
+}
+
+#header{
+    font-size: 40px;
+    text-align:center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width:960px;
+    margin: auto;
+}
+
+#text{
+    color: rgb(255,0,0);
+}
+
+#main{
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#login li{
+    text-align: center;
+    padding:10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#login h3{
+    font-weight:200;
+}
+
+#login{
+    list-style-type: none;
+}
+
+#login a{
+    color:blue;
+}
+
+#login a li:hover{
+    background-color: #e0e0e0;
+}
+
+#form{
+    float: left;
+    padding:20px;
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;   
+}
+
+input[type="submit"]{
+    padding: 5px 10px 5px 10px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#main{
+    min-width:1200px;
+}
+
+#main section,#main aside{
+    float: left;
+}
+
+#vnav{
+    width: 200px;
+    font-size:16px;
+    height: 580px;
+    background-color: #f0f0f0;
+}
+
+#container{
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
